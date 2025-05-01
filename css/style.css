@@ -1,0 +1,114 @@
+/* Font Styles */
+
+* {
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+}
+
+.textScript {
+    font-family: "Pinyon Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+
+/* Colors Styles */
+
+.textColorWhite {
+    color: #F7F4EF;
+}
+
+.textColorGold {
+    color: #DFCCA1;
+}
+
+.textColorRed {
+    color: #872337;
+}
+
+.textColorBlue {
+    color: #051c25;
+}
+
+.backgroundWhite {
+    background: #F7F4EF;
+}
+
+.backgroundGold {
+    background: #DFCCA1;
+}
+
+.backgroundRed {
+    background: #872337;
+}
+
+.backgroundBlue {
+    background: #051c25;
+}
+
+.backgroundShadow {
+    background: linear-gradient(90deg,rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0) 70%);
+}
+
+/* Hero */
+
+.imgBgHero{
+    width: 100%;
+    height: 122dvh;
+    top: 0;
+}
+
+#heroSection{
+    margin: 2rem auto 0 auto;
+}
+
+@media (min-width:768px) {
+    .imgBgHero{
+        height: 96dvh;
+    }
+
+    #heroSection{
+        margin: 7rem auto 2rem auto;
+    }
+}
+
+.heroButton{
+    border: none;
+    border-radius: 24pt;
+    padding: 0.5rem 1rem;
+}
+
+.heroButton:hover{
+    background: #872337;
+    color: #F7F4EF;
+}
+
+/* Navbar */
+
+.navbar-toggler,
+.offcanvasClose {
+    background: none;
+    border: none;
+    padding: 0;
+}
+
+nav i {
+    color: #F7F4EF;
+    font-size: 1.25rem;
+    padding: 0;
+    margin: 0;
+}
+
+nav .dropdown-toggle {
+    background: none;
+    border: none;
+    padding: 0;
+    color: #F7F4EF;
+}
+
+/* Card */
+
+.card{
+    border: none;
+}
