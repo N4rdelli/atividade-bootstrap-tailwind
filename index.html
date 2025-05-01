@@ -26,7 +26,7 @@
         <!-- Offcanvas Navbar -->
         <div id="navbar" class="offcanvas offcanvas-start textColorWhite backgroundBlue" tabindex="-1" aria-labelledby="navbar">
           <div class="offcanvas-header justify-content-between align-items-start">
-            <h5 id="offcanvasNavbarLabel" class="offcanvas-title textScript" style="font-size: 2rem">Maison Roseé</h5>
+            <h5 id="offcanvasNavbarLabel" class="offcanvas-title textScript" style="font-size: 2rem">Maison Rosée</h5>
             <button type="button" class="offcanvasClose" data-bs-dismiss="offcanvas" aria-label="Close">
               <i class="bi bi-x"></i>
             </button>
@@ -64,55 +64,43 @@
       <!-- Hero Section -->
       <img src="./imgs/b_w_roses.webp" alt="" class="imgBgHero" style="object-fit: cover; position: absolute; filter: brightness(50%)" />
 
-      <section id="heroSection" class="container-fluid row justify-content-center align-items-center g-5 g-md-0" style="padding: 5rem 0rem !important">
+      <section id="heroSection" class="container-fluid row justify-content-center justify-content-md-evenly align-items-center g-5 g-md-0" style="padding: 5rem 0rem !important">
         <!-- Carousel -->
-        <div class="col-12 col-md-5" style="max-width: 22rem">
+        <div class="col-12 col-md-4 col-lg-3">
           <div id="carouselExample" class="carousel slide" data-bs-ride="ride">
             <div class="carousel-inner">
               <!-- Carousel Card 1 -->
               <div class="carousel-item active">
                 <div class="d-flex justify-content-center">
-                  <div class="shadow-lg backgroundWhite p-4 d-flex flex-column row-gap-3">
+                  <div class="shadow-lg rounded-1 backgroundWhite p-4 d-flex flex-column row-gap-4 w-100 align-items-center" style="max-width: 15rem">
                     <img src="./imgs/red_bouquet.png" alt="" style="width: 10rem; height: 10rem; object-fit: cover" />
                     <div>
-                      <h2 class="fs-4">Classic Red</h2>
-                      <p class="fs-6 fst-italic" style="max-width: 10rem">Rose Info</p>
-                      <span class="d-inline-flex align-items-end column-gap-1"
-                        >$
-                        <h2 class="m-0">99,00</h2></span
-                      >
+                      <h2 class="fs-4 mb-3">Rouge Élégance</h2>
+                      <p class="fs-6 fst-italic m-0" style="max-width: 10rem">The timeless choice to impress with intensity</p>
                     </div>
                   </div>
                 </div>
               </div>
               <!-- Carousel Card 2 -->
-              <div class="carousel-item active">
+              <div class="carousel-item">
                 <div class="d-flex justify-content-center">
-                  <div class="shadow-lg backgroundWhite p-4 d-flex flex-column row-gap-3">
+                  <div class="shadow-lg rounded-1 backgroundWhite p-4 d-flex flex-column row-gap-4 w-100 align-items-center" style="max-width: 15rem">
                     <img src="./imgs/blue_bouquet.png" alt="" style="width: 10rem; height: 10rem; object-fit: cover" />
                     <div>
-                      <h2 class="fs-4">Navy Blue</h2>
-                      <p class="fs-6 fst-italic" style="max-width: 10rem">Rose Info</p>
-                      <span class="d-inline-flex align-items-end column-gap-1"
-                        >$
-                        <h2 class="m-0">99,00</h2></span
-                      >
+                      <h2 class="fs-4 mb-3">Bleu Mystère</h2>
+                      <p class="fs-6 fst-italic m-0" style="max-width: 10rem">For moments that call for silence, depth, and enchantment</p>
                     </div>
                   </div>
                 </div>
               </div>
               <!-- Carousel Card 3 -->
-              <div class="carousel-item active">
+              <div class="carousel-item">
                 <div class="d-flex justify-content-center">
-                  <div class="shadow-lg backgroundWhite p-4 d-flex flex-column row-gap-3">
-                    <img src="https://placehold.co/160x160" alt="" style="width: 10rem; height: 10rem; object-fit: cover" />
+                  <div class="shadow-lg rounded-1 backgroundWhite p-4 d-flex flex-column row-gap-4 w-100 align-items-center" style="max-width: 15rem">
+                    <img src="./imgs/white_bouquet.png" alt="" style="width: 10rem; height: 10rem; object-fit: cover" />
                     <div>
-                      <h2 class="fs-4">Gold Petals</h2>
-                      <p class="fs-6 fst-italic" style="max-width: 10rem">Rose Info</p>
-                      <span class="d-inline-flex align-items-end column-gap-1"
-                        >$
-                        <h2 class="m-0">99,00</h2></span
-                      >
+                      <h2 class="fs-4 mb-3">Pureté Neige</h2>
+                      <p class="fs-6 fst-italic m-0" style="max-width: 10rem">Purity in floral form. Untouched, immaculate, essential.</p>
                     </div>
                   </div>
                 </div>
@@ -130,8 +118,8 @@
         </div>
 
         <!-- Call to  Action -->
-        <div class="col-12 col-md-7 p-3 d-flex flex-column align-items-center align-items-md-start" style="position: relative; height: 100%; max-width: 30rem">
-          <h2 class="fs-1 textColorWhite text-center text-md-start">Luxury that <span class="textScript px-2" style="font-size: 3rem">blooms</span> in every shade</h2>
+        <div class="col-12 col-md-6 p-3 d-flex flex-column align-items-center align-items-md-start" style="position: relative; height: 100%">
+          <h2 class="textColorWhite text-center text-md-start ps-4 mb-3" style="font-size: 3rem; border-left: 5px solid #f7f4ef">Luxury that <span class="textScript px-2" style="font-size: 4rem">blooms</span></h2>
           <p class="textColorWhite fs-5">Elegance delivered to your door</p>
           <button class="heroButton">Explore Collection</button>
         </div>
@@ -141,124 +129,386 @@
       <div class="container-fluid backgroundGold textColorRed textScript" style="font-size: 2.5rem; padding: 0.5rem 0; position: relative">Roses that speak. Elegance that touches. Luxury in every detail.</div>
 
       <!-- Shopping Section -->
-      <section id="shoppingSection" class="container-fluid my-5 p-3 px-5 d-flex flex-column align-items-center">
-        <h2 class="fs-1 fw-bold">Our Collection</h2>
-        <p class="text-center" style="max-width: 30rem;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique repudiandae, voluptatum qui, tempora voluptatibus dignissimos consequatur ducimus neque veritatis ea natus enim a quasi, nostrum voluptate adipisci unde ipsa fugit?</p>
+      <section id="shoppingSection" class="container-fluid m-0 p-0 px-5 d-flex flex-column align-items-center">
+        <img src="./imgs/PaperTexture.webp" alt="" style="object-fit: cover; position: absolute; filter: opacity(50%)" class="imgBgShopping" />
+
+        <div class="container-fluid position-relative d-flex flex-column w-100 align-items-center mt-5">
+          <h2 class="fs-1 fw-bold">Our Collection</h2>
+          <p class="text-center" style="max-width: 30rem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique repudiandae, voluptatum qui, tempora voluptatibus dignissimos consequatur ducimus neque veritatis ea natus enim a quasi, nostrum voluptate adipisci unde ipsa fugit?</p>
+        </div>
 
         <div class="container-fluid d-flex flex-wrap justify-content-center row g-3 mt-4">
           <!-- Shopping Card 1 -->
-          <div class="card col-12 col-sm-4 col-lg-3" style="max-width: 15rem">
+          <div class="card col-12 col-sm-6 col-lg-3" style="max-width: 15rem; background: none; border: none">
             <div class="backgroundWhite p-4 d-flex flex-column row-gap-3">
               <img src="./imgs/red_bouquet.png" alt="" style="width: 10%m; height: 10rem; object-fit: cover" />
               <div>
-                <h2 class="fs-4">Classic Red</h2>
-                <p class="fs-6 fst-italic" style="max-width: 10rem">Rose Info</p>
-                <span class="d-inline-flex align-items-end column-gap-1"
-                  >$
-                  <h2 class="m-0">99,00</h2></span
-                >
+                <h2 class="fs-4">Rouge Élégance</h2>
+                <p class="fs-6 fst-italic" style="max-width: 10rem">The timeless choice to impress with intensity</p>
+                <div class="container-fluid d-flex justify-content-between p-0">
+                  <span class="d-inline-flex align-items-end column-gap-1"
+                    >$
+                    <h3 class="m-0">99,90</h3></span
+                  >
+                  <button class="shoppingButton" data-bs-toggle="modal" data-bs-target="#modalCard1"><i class="bi bi-cart"></i></button>
+                </div>
               </div>
             </div>
           </div>
           <!-- Shopping Card 2 -->
-          <div class="card col-12 col-sm-4 col-lg-3" style="max-width: 15rem">
+          <div class="card col-12 col-sm-6 col-lg-3" style="max-width: 15rem; background: none; border: none">
             <div class="backgroundWhite p-4 d-flex flex-column row-gap-3">
               <img src="./imgs/blue_bouquet.png" alt="" style="width: 100%; height: 10rem; object-fit: cover" />
               <div>
-                <h2 class="fs-4">Navy Blue</h2>
-                <p class="fs-6 fst-italic" style="max-width: 10rem">Rose Info</p>
-                <span class="d-inline-flex align-items-end column-gap-1"
-                  >$
-                  <h2 class="m-0">99,00</h2></span
-                >
+                <h2 class="fs-4">Bleu Mystère</h2>
+                <p class="fs-6 fst-italic" style="max-width: 10rem">For moments that call for silence, depth, and enchantment</p>
+                <div class="container-fluid d-flex justify-content-between p-0">
+                  <span class="d-inline-flex align-items-end column-gap-1"
+                    >$
+                    <h3 class="m-0">112,40</h3></span
+                  >
+                  <button class="shoppingButton" data-bs-toggle="modal" data-bs-target="#modalCard2"><i class="bi bi-cart"></i></button>
+                </div>
               </div>
             </div>
           </div>
-          <!-- Shopping Card 1 -->
-          <div class="card col-12 col-sm-4 col-lg-3" style="max-width: 15rem">
+          <!-- Shopping Card 3 -->
+          <div class="card col-12 col-sm-6 col-lg-3" style="max-width: 15rem; background: none; border: none">
             <div class="backgroundWhite p-4 d-flex flex-column row-gap-3">
-              <img src="./imgs/red_bouquet.png" alt="" style="width: 100%; height: 10rem; object-fit: cover" />
+              <img src="./imgs/gold_bouquet.png" alt="" style="width: 100%; height: 10rem; object-fit: cover" />
               <div>
-                <h2 class="fs-4">Classic Red</h2>
-                <p class="fs-6 fst-italic" style="max-width: 10rem">Rose Info</p>
-                <span class="d-inline-flex align-items-end column-gap-1"
-                  >$
-                  <h2 class="m-0">99,00</h2></span
-                >
+                <h2 class="fs-4">Doré Sublime</h2>
+                <p class="fs-6 fst-italic" style="max-width: 10rem">A gentle glow to eternalize luxurious memories</p>
+                <div class="container-fluid d-flex justify-content-between p-0">
+                  <span class="d-inline-flex align-items-end column-gap-1"
+                    >$
+                    <h3 class="m-0">107,20</h3></span
+                  >
+                  <button class="shoppingButton" data-bs-toggle="modal" data-bs-target="#modalCard3"><i class="bi bi-cart"></i></button>
+                </div>
               </div>
             </div>
           </div>
-          <!-- Shopping Card 2 -->
-          <div class="card col-12 col-sm-4 col-lg-3" style="max-width: 15rem">
+          <!-- Shopping Card 4 -->
+          <div class="card col-12 col-sm-6 col-lg-3" style="max-width: 15rem; background: none; border: none">
             <div class="backgroundWhite p-4 d-flex flex-column row-gap-3">
-              <img src="./imgs/blue_bouquet.png" alt="" style="width: 100%; height: 10rem; object-fit: cover" />
+              <img src="./imgs/salmon_bouquet.png" alt="" style="width: 100%; height: 10rem; object-fit: cover" />
               <div>
-                <h2 class="fs-4">Navy Blue</h2>
-                <p class="fs-6 fst-italic" style="max-width: 10rem">Rose Info</p>
-                <span class="d-inline-flex align-items-end column-gap-1"
-                  >$
-                  <h2 class="m-0">99,00</h2></span
-                >
+                <h2 class="fs-4">Pêche de Velours</h2>
+                <p class="fs-6 fst-italic" style="max-width: 10rem">Elegant sweetness that warms and embraces softly</p>
+                <div class="container-fluid d-flex justify-content-between p-0">
+                  <span class="d-inline-flex align-items-end column-gap-1"
+                    >$
+                    <h3 class="m-0">107,20</h3></span
+                  >
+                  <button class="shoppingButton" data-bs-toggle="modal" data-bs-target="#modalCard4"><i class="bi bi-cart"></i></button>
+                </div>
               </div>
             </div>
           </div>
-          <!-- Shopping Card 1 -->
-          <div class="card col-12 col-sm-4 col-lg-3" style="max-width: 15rem">
+          <!-- Shopping Card 5 -->
+          <div class="card col-12 col-sm-6 col-lg-3" style="max-width: 15rem; background: none; border: none">
             <div class="backgroundWhite p-4 d-flex flex-column row-gap-3">
-              <img src="./imgs/red_bouquet.png" alt="" style="width: 100%; height: 10rem; object-fit: cover" />
+              <img src="./imgs/pale-blue_bouquet.png" alt="" style="width: 100%; height: 10rem; object-fit: cover" />
               <div>
-                <h2 class="fs-4">Classic Red</h2>
-                <p class="fs-6 fst-italic" style="max-width: 10rem">Rose Info</p>
-                <span class="d-inline-flex align-items-end column-gap-1"
-                  >$
-                  <h2 class="m-0">99,00</h2></span
-                >
+                <h2 class="fs-4">Ciel Pâle</h2>
+                <p class="fs-6 fst-italic" style="max-width: 10rem">The lightness of the morning sky, now in bloom</p>
+                <div class="container-fluid d-flex justify-content-between p-0">
+                  <span class="d-inline-flex align-items-end column-gap-1"
+                    >$
+                    <h3 class="m-0">128,40</h3></span
+                  >
+                  <button class="shoppingButton" data-bs-toggle="modal" data-bs-target="#modalCard5"><i class="bi bi-cart"></i></button>
+                </div>
               </div>
             </div>
           </div>
-          <!-- Shopping Card 2 -->
-          <div class="card col-12 col-sm-4 col-lg-3" style="max-width: 15rem">
+          <!-- Shopping Card 6 -->
+          <div class="card col-12 col-sm-6 col-lg-3" style="max-width: 15rem; background: none; border: none">
             <div class="backgroundWhite p-4 d-flex flex-column row-gap-3">
-              <img src="./imgs/blue_bouquet.png" alt="" style="width: 100%; height: 10rem; object-fit: cover" />
+              <img src="./imgs/soft-pink_bouquet.png" alt="" style="width: 100%; height: 10rem; object-fit: cover" />
               <div>
-                <h2 class="fs-4">Navy Blue</h2>
-                <p class="fs-6 fst-italic" style="max-width: 10rem">Rose Info</p>
-                <span class="d-inline-flex align-items-end column-gap-1"
-                  >$
-                  <h2 class="m-0">99,00</h2></span
-                >
+                <h2 class="fs-4">Rose Blush</h2>
+                <p class="fs-6 fst-italic" style="max-width: 10rem">The beauty of pure romance, as light as a sigh</p>
+                <div class="container-fluid d-flex justify-content-between p-0">
+                  <span class="d-inline-flex align-items-end column-gap-1"
+                    >$
+                    <h3 class="m-0">99,90</h3></span
+                  >
+                  <button class="shoppingButton" data-bs-toggle="modal" data-bs-target="#ModalCard6"><i class="bi bi-cart"></i></button>
+                </div>
               </div>
             </div>
           </div>
-          <!-- Shopping Card 1 -->
-          <div class="card col-12 col-sm-4 col-lg-3" style="max-width: 15rem">
+          <!-- Shopping Card 7 -->
+          <div class="card col-12 col-sm-6 col-lg-3" style="max-width: 15rem; background: none; border: none">
             <div class="backgroundWhite p-4 d-flex flex-column row-gap-3">
-              <img src="./imgs/red_bouquet.png" alt="" style="width: 100%; height: 10rem; object-fit: cover" />
+              <img src="./imgs/white_bouquet.png" alt="" style="width: 100%; height: 10rem; object-fit: cover" />
               <div>
-                <h2 class="fs-4">Classic Red</h2>
-                <p class="fs-6 fst-italic" style="max-width: 10rem">Rose Info</p>
-                <span class="d-inline-flex align-items-end column-gap-1"
-                  >$
-                  <h2 class="m-0">99,00</h2></span
-                >
+                <h2 class="fs-4">Pureté Neige</h2>
+                <p class="fs-6 fst-italic" style="max-width: 10rem">Purity in floral form. Untouched, immaculate, essential</p>
+                <div class="container-fluid d-flex justify-content-between p-0">
+                  <span class="d-inline-flex align-items-end column-gap-1"
+                    >$
+                    <h3 class="m-0">121,90</h3></span
+                  >
+                  <button class="shoppingButton" data-bs-toggle="modal" data-bs-target="#modalCard7"><i class="bi bi-cart"></i></button>
+                </div>
               </div>
             </div>
           </div>
-          <!-- Shopping Card 2 -->
-          <div class="card col-12 col-sm-4 col-lg-3" style="max-width: 15rem">
+          <!-- Shopping Card 8 -->
+          <div class="card col-12 col-sm-6 col-lg-3" style="max-width: 15rem; background: none; border: none">
             <div class="backgroundWhite p-4 d-flex flex-column row-gap-3">
-              <img src="./imgs/blue_bouquet.png" alt="" style="width: 100%; height: 10rem; object-fit: cover" />
+              <img src="./imgs/green_bouquet.png" alt="" style="width: 100%; height: 10rem; object-fit: cover" />
               <div>
-                <h2 class="fs-4">Navy Blue</h2>
-                <p class="fs-6 fst-italic" style="max-width: 10rem">Rose Info</p>
-                <span class="d-inline-flex align-items-end column-gap-1"
-                  >$
-                  <h2 class="m-0">99,00</h2></span
-                >
+                <h2 class="fs-4">Menthe Douce</h2>
+                <p class="fs-6 fst-italic" style="max-width: 10rem">As refreshing as morning dew. Unexpectedly delicate</p>
+                <div class="container-fluid d-flex justify-content-between p-0">
+                  <span class="d-inline-flex align-items-end column-gap-1"
+                    >$
+                    <h3 class="m-0">114,50</h3></span
+                  >
+                  <button class="shoppingButton" data-bs-toggle="modal" data-bs-target="#modalCard8"><i class="bi bi-cart"></i></button>
+                </div>
               </div>
             </div>
           </div>
         </div>
+
+        <!-- Modal Card 1 -->
+        <div class="modal fade" id="modalCard1" tabindex="-1" aria-labelledby="modalCard1Label" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content p-4 container-fluid backgroundWhite border-0 rounded-0">
+              <div class="modal-header pt-0">
+                <h1 class="modal-title fs-6 fst-italic" id="modalCard1Label">More Details</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body row d-flex g-4 row-gap-3">
+                <img src="./imgs/red_bouquet.png" alt="" class="col-12 col-sm-5 ps-0" />
+                <div class="d-flex flex-column col-12 col-sm-7 pe-0 h-100 justify-content-between">
+                  <h2 class="fw-bold fs-3 mt-md-4">Rouge Élégance</h2>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item fst-italic ps-0" style="background: none"><b>Color:</b> Red Roses</li>
+                    <li class="list-group-item fst-italic ps-0" style="background: none"><b>Quantity:</b> 24 flowers</li>
+                    <li class="list-group-item fst-italic ps-0" style="background: none">The timeless choice to impress with intensity.</li>
+                  </ul>
+                </div>
+                <div class="m-0">
+                  <p class="m-0 fs-6 fst-italic"><b>Description:</b>The petals are naturally dyed using extracts from crimson flowers and enhanced with warm plant-based carmine vapors, preserving their velvety texture and authentic fragrance.</p>
+                </div>
+              </div>
+              <div class="modal-footer d-inline-flex justify-content-between pb-0">
+                <h2 class="fs-2 fw-bold"><span>$</span>99,90</h2>
+                <button type="button" class="btn shoppingButton"><i class="bi bi-cart me-2"></i>Buy</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Modal Card 2 -->
+        <div class="modal fade" id="modalCard2" tabindex="-1" aria-labelledby="modalCard2Label" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content p-4 container-fluid backgroundWhite border-0 rounded-0">
+                <div class="modal-header pt-0">
+                  <h1 class="modal-title fs-6 fst-italic" id="modalCard2Label">More Details</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body row d-flex g-4 row-gap-3">
+                  <img src="./imgs/blue_bouquet.png" alt="" class="col-12 col-sm-5 ps-0" />
+                  <div class="d-flex flex-column col-12 col-sm-7 pe-0 h-100 justify-content-between">
+                    <h2 class="fw-bold fs-3 mt-md-4">Bleu Mystère</h2>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item fst-italic ps-0" style="background: none"><b>Color:</b> Dark Blue Roses</li>
+                      <li class="list-group-item fst-italic ps-0" style="background: none"><b>Quantity:</b> 30 flowers</li>
+                      <li class="list-group-item fst-italic ps-0" style="background: none">For moments that call for silence, depth, and enchantment.</li>
+                    </ul>
+                  </div>
+                  <div class="m-0">
+                    <p class="m-0 fs-6 fst-italic"><b>Description:</b> Achieved through an infusion of deep lavender petal pigment, this tone is fixed in a moisture chamber to retain the rose’s vitality and richness.</p>
+                  </div>
+                </div>
+                <div class="modal-footer d-inline-flex justify-content-between pb-0">
+                  <h2 class="fs-2 fw-bold"><span>$</span>112,40</h2>
+                  <button type="button" class="btn shoppingButton"><i class="bi bi-cart me-2"></i>Buy</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Modal Card 3 -->
+        <div class="modal fade" id="modalCard3" tabindex="-1" aria-labelledby="modalCard3Label" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content p-4 container-fluid backgroundWhite border-0 rounded-0">
+                <div class="modal-header pt-0">
+                  <h1 class="modal-title fs-6 fst-italic" id="modalCard3Label">More Details</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body row d-flex g-4 row-gap-3">
+                  <img src="./imgs/gold_bouquet.png" alt="" class="col-12 col-sm-5 ps-0" />
+                  <div class="d-flex flex-column col-12 col-sm-7 pe-0 h-100 justify-content-between">
+                    <h2 class="fw-bold fs-3 mt-md-4">Doré Sublime </h2>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item fst-italic ps-0" style="background: none"><b>Color:</b> Golden Roses</li>
+                      <li class="list-group-item fst-italic ps-0" style="background: none"><b>Quantity:</b> 26 flowers</li>
+                      <li class="list-group-item fst-italic ps-0" style="background: none">A gentle glow to eternalize luxurious memories</li>
+                    </ul>
+                  </div>
+                  <div class="m-0">
+                    <p class="m-0 fs-6 fst-italic"><b>Descriiption:</b>This creamy golden hue is created by immersing roses in white tea with pearlescent mineral pigments, highlighting a warm and sophisticated shimmer.</p>
+                  </div>
+                </div>
+                <div class="modal-footer d-inline-flex justify-content-between pb-0">
+                  <h2 class="fs-2 fw-bold"><span>$</span>107,20</h2>
+                  <button type="button" class="btn shoppingButton"><i class="bi bi-cart me-2"></i>Buy</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Modal Card 4 -->
+        <div class="modal fade" id="modalCard4" tabindex="-1" aria-labelledby="modalCard4Label" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content p-4 container-fluid backgroundWhite border-0 rounded-0">
+                <div class="modal-header pt-0">
+                  <h1 class="modal-title fs-6 fst-italic" id="modalCard4Label">More Details</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body row d-flex g-4 row-gap-3">
+                  <img src="./imgs/salmon_bouquet.png" alt="" class="col-12 col-sm-5 ps-0" />
+                  <div class="d-flex flex-column col-12 col-sm-7 pe-0 h-100 justify-content-between">
+                    <h2 class="fw-bold fs-3 mt-md-4">Pêche de Velours</h2>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item fst-italic ps-0" style="background: none"><b>Color:</b> Peach Roses</li>
+                      <li class="list-group-item fst-italic ps-0" style="background: none"><b>Quantity:</b> 26 flowers</li>
+                      <li class="list-group-item fst-italic ps-0" style="background: none">Elegant sweetness that warms and embraces softly</li>
+                    </ul>
+                  </div>
+                  <div class="m-0">
+                    <p class="m-0 fs-6 fst-italic"><b>Description:</b>The peach tone comes from a delicate blend of natural pigments from pomegranate peel and hibiscus petals, offering earthy and inviting undertones.</p>
+                  </div>
+                </div>
+                <div class="modal-footer d-inline-flex justify-content-between pb-0">
+                  <h2 class="fs-2 fw-bold"><span>$</span>107,20</h2>
+                  <button type="button" class="btn shoppingButton"><i class="bi bi-cart me-2"></i>Buy</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Modal Card 5 -->
+        <div class="modal fade" id="modalCard5" tabindex="-1" aria-labelledby="modalCard5Label" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content p-4 container-fluid backgroundWhite border-0 rounded-0">
+                <div class="modal-header pt-0">
+                  <h1 class="modal-title fs-6 fst-italic" id="modalCard5Label">More Details</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body row d-flex g-4 row-gap-3">
+                  <img src="./imgs/pale-blue_bouquet.png" alt="" class="col-12 col-sm-5 ps-0" />
+                  <div class="d-flex flex-column col-12 col-sm-7 pe-0 h-100 justify-content-between">
+                    <h2 class="fw-bold fs-3 mt-md-4">Ciel Pâle</h2>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item fst-italic ps-0" style="background: none"><b>Color:</b> Pale Blue Roses</li>
+                      <li class="list-group-item fst-italic ps-0" style="background: none"><b>Quantity:</b> 24 flowers</li>
+                      <li class="list-group-item fst-italic ps-0" style="background: none">The lightness of the morning sky, now in bloom</li>
+                    </ul>
+                  </div>
+                  <div class="m-0">
+                    <p class="m-0 fs-6 fst-italic"><b>Description:</b>Tinted with forget-me-not extract and set with cool vapor, this gentle blue conveys serenity while preserving the softness of the fresh rose.</p>
+                  </div>
+                </div>
+                <div class="modal-footer d-inline-flex justify-content-between pb-0">
+                  <h2 class="fs-2 fw-bold"><span>$</span>128,40</h2>
+                  <button type="button" class="btn shoppingButton"><i class="bi bi-cart me-2"></i>Buy</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Modal Card 6 -->
+        <div class="modal fade" id="ModalCard6" tabindex="-1" aria-labelledby="ModalCard6Label" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content p-4 container-fluid backgroundWhite border-0 rounded-0">
+                <div class="modal-header pt-0">
+                  <h1 class="modal-title fs-6 fst-italic" id="ModalCard6Label">More Details</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body row d-flex g-4 row-gap-3">
+                  <img src="./imgs/soft-pink_bouquet.png" alt="" class="col-12 col-sm-5 ps-0" />
+                  <div class="d-flex flex-column col-12 col-sm-7 pe-0 h-100 justify-content-between">
+                    <h2 class="fw-bold fs-3 mt-md-4">Rose Blush</h2>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item fst-italic ps-0" style="background: none"><b>Color:</b> Soft Pink Roses</li>
+                      <li class="list-group-item fst-italic ps-0" style="background: none"><b>Quantity:</b> 28 flowers</li>
+                      <li class="list-group-item fst-italic ps-0" style="background: none">The beauty of pure romance, as light as a sigh</li>
+                    </ul>
+                  </div>
+                  <div class="m-0">
+                    <p class="m-0 fs-6 fst-italic"><b>Description:</b> Pigment from cherry blossom petals is softly applied to white roses, creating an angelic pink hue while maintaining the petal’s translucent texture.</p>
+                  </div>
+                </div>
+                <div class="modal-footer d-inline-flex justify-content-between pb-0">
+                  <h2 class="fs-2 fw-bold"><span>$</span>99,90</h2>
+                  <button type="button" class="btn shoppingButton"><i class="bi bi-cart me-2"></i>Buy</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Modal Card 7 -->
+        <div class="modal fade" id="modalCard7" tabindex="-1" aria-labelledby="modalCard7Label" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content p-4 container-fluid backgroundWhite border-0 rounded-0">
+                <div class="modal-header pt-0">
+                  <h1 class="modal-title fs-6 fst-italic" id="modalCard7Label">More Details</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body row d-flex g-4 row-gap-3">
+                  <img src="./imgs/white_bouquet.png" alt="" class="col-12 col-sm-5 ps-0" />
+                  <div class="d-flex flex-column col-12 col-sm-7 pe-0 h-100 justify-content-between">
+                    <h2 class="fw-bold fs-3 mt-md-4">Pureté Neige</h2>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item fst-italic ps-0" style="background: none"><b>Color:</b> White Roses</li>
+                      <li class="list-group-item fst-italic ps-0" style="background: none"><b>Quantity:</b> 28 flowers</li>
+                      <li class="list-group-item fst-italic ps-0" style="background: none">Purity in floral form. Untouched, immaculate, essentia</li>
+                    </ul>
+                  </div>
+                  <div class="m-0">
+                    <p class="m-0 fs-6 fst-italic"><b>Description:</b> Grown without pigment alteration, these white roses are hand-selected at their peak bloom, remaining pure, fresh, and naturally radiant.</p>
+                  </div>
+                </div>
+                <div class="modal-footer d-inline-flex justify-content-between pb-0">
+                  <h2 class="fs-2 fw-bold"><span>$</span>121,90</h2>
+                  <button type="button" class="btn shoppingButton"><i class="bi bi-cart me-2"></i>Buy</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Modal Card 8 -->
+        <div class="modal fade" id="modalCard8" tabindex="-1" aria-labelledby="modalCard8Label" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content p-4 container-fluid backgroundWhite border-0 rounded-0">
+                <div class="modal-header pt-0">
+                  <h1 class="modal-title fs-6 fst-italic" id="modalCard8Label">More Details</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body row d-flex g-4 row-gap-3">
+                  <img src="./imgs/green_bouquet.png" alt="" class="col-12 col-sm-5 ps-0" />
+                  <div class="d-flex flex-column col-12 col-sm-7 pe-0 h-100 justify-content-between">
+                    <h2 class="fw-bold fs-3 mt-md-4">Menthe Douce</h2>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item fst-italic ps-0" style="background: none"><b>Color:</b> Mint Roses</li>
+                      <li class="list-group-item fst-italic ps-0" style="background: none"><b>Quantity:</b> 26 flowers</li>
+                      <li class="list-group-item fst-italic ps-0" style="background: none">As refreshing as morning dew. Unexpectedly delicate</li>
+                    </ul>
+                  </div>
+                  <div class="m-0">
+                    <p class="m-0 fs-6 fst-italic"><b>Description:</b> This tone is crafted with green tea and pressed mint extracts, producing a fresh, harmonious green without altering the rose’s gentle softness.</p>
+                  </div>
+                </div>
+                <div class="modal-footer d-inline-flex justify-content-between pb-0">
+                  <h2 class="fs-2 fw-bold"><span>$</span>114,50</h2>
+                  <button type="button" class="btn shoppingButton"><i class="bi bi-cart me-2"></i>Buy</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
       </section>
     </main>
 
