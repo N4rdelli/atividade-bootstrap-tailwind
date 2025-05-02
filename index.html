@@ -62,80 +62,83 @@
 
     <main>
       <!-- Hero Section -->
-      <img src="./imgs/b_w_roses.webp" alt="" class="imgBgHero" style="object-fit: cover; position: absolute; filter: brightness(50%)" />
-
-      <section id="heroSection" class="container-fluid row justify-content-center justify-content-md-evenly align-items-center g-5 g-md-0" style="padding: 5rem 0rem !important">
-        <!-- Carousel -->
-        <div class="col-12 col-md-4 col-lg-3">
-          <div id="carouselExample" class="carousel slide" data-bs-ride="ride">
-            <div class="carousel-inner">
-              <!-- Carousel Card 1 -->
-              <div class="carousel-item active">
-                <div class="d-flex justify-content-center">
-                  <div class="shadow-lg rounded-1 backgroundWhite p-4 d-flex flex-column row-gap-4 w-100 align-items-center" style="max-width: 15rem">
-                    <img src="./imgs/red_bouquet.png" alt="" style="width: 10rem; height: 10rem; object-fit: cover" />
-                    <div>
-                      <h2 class="fs-4 mb-3">Rouge Élégance</h2>
-                      <p class="fs-6 fst-italic m-0" style="max-width: 10rem">The timeless choice to impress with intensity</p>
+      <section id="heroSection" class="container-fluid d-flex justify-content-center" style="margin-top: 4rem;">
+        <div class="container-fluid row justify-content-center align-items-center row-gap-5">
+          <!-- Carousel -->
+          <div class="container-fluid col-12 col-md-4 m-0">
+            <div id="carouselExample" class="carousel slide mx-auto mx-md-0" data-bs-ride="ride" style="max-width: 28.75rem;">
+              <div class="carousel-inner">
+                <!-- Carousel Card 1 -->
+                <div class="carousel-item active">
+                  <div class="d-flex justify-content-center">
+                    <div class="shadow-lg rounded-0 backgroundWhite p-4 d-flex flex-column row-gap-4 w-100 align-items-center" style="max-width: 14rem">
+                      <img src="./imgs/red_bouquet.png" alt="" style="width: 100%; object-fit: cover" />
+                      <div>
+                        <h2 class="fs-4 mb-3">Classic Red</h2>
+                        <p class="fs-6 fst-italic m-0" style="max-width: 10rem">The timeless choice to impress with intensity</p>
+                        <button onclick="document.getElementById('shoppingSection').scrollIntoView({ behavior: 'smooth' })" class="btn backgroundBlue textColorWhite py-2 w-100 mt-3 rounded-0" >Purchase now</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Carousel Card 2 -->
+                <div class="carousel-item">
+                  <div class="d-flex justify-content-center">
+                    <div class="shadow-lg rounded-0 backgroundWhite p-4 d-flex flex-column row-gap-4 w-100 align-items-center" style="max-width: 14rem">
+                      <img src="./imgs/blue_bouquet.png" alt="" style="width: 10rem; height: 10rem; object-fit: cover" />
+                      <div>
+                        <h2 class="fs-4 mb-3">Bleu Mystère</h2>
+                        <p class="fs-6 fst-italic m-0" style="max-width: 10rem">For moments that call for silence, depth, and enchantment</p>
+                        <button onclick="document.getElementById('shoppingSection').scrollIntoView({ behavior: 'smooth' })" class="btn backgroundBlue textColorWhite py-2 w-100 mt-3 rounded-0" >Purchase now</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Carousel Card 3 -->
+                <div class="carousel-item">
+                  <div class="d-flex justify-content-center">
+                    <div class="shadow-lg rounded-0 backgroundWhite p-4 d-flex flex-column row-gap-4 w-100 align-items-center" style="max-width: 14rem">
+                      <img src="./imgs/white_bouquet.png" alt="" style="width: 10rem; height: 10rem; object-fit: cover" />
+                      <div>
+                        <h2 class="fs-4 mb-3">Pureté Neige</h2>
+                        <p class="fs-6 fst-italic m-0" style="max-width: 10rem">Purity in floral form. Untouched, immaculate, essential.</p>
+                        <button onclick="document.getElementById('shoppingSection').scrollIntoView({ behavior: 'smooth' })" class="btn backgroundBlue textColorWhite py-2 w-100 mt-3 rounded-0">Purchase now</button>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <!-- Carousel Card 2 -->
-              <div class="carousel-item">
-                <div class="d-flex justify-content-center">
-                  <div class="shadow-lg rounded-1 backgroundWhite p-4 d-flex flex-column row-gap-4 w-100 align-items-center" style="max-width: 15rem">
-                    <img src="./imgs/blue_bouquet.png" alt="" style="width: 10rem; height: 10rem; object-fit: cover" />
-                    <div>
-                      <h2 class="fs-4 mb-3">Bleu Mystère</h2>
-                      <p class="fs-6 fst-italic m-0" style="max-width: 10rem">For moments that call for silence, depth, and enchantment</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- Carousel Card 3 -->
-              <div class="carousel-item">
-                <div class="d-flex justify-content-center">
-                  <div class="shadow-lg rounded-1 backgroundWhite p-4 d-flex flex-column row-gap-4 w-100 align-items-center" style="max-width: 15rem">
-                    <img src="./imgs/white_bouquet.png" alt="" style="width: 10rem; height: 10rem; object-fit: cover" />
-                    <div>
-                      <h2 class="fs-4 mb-3">Pureté Neige</h2>
-                      <p class="fs-6 fst-italic m-0" style="max-width: 10rem">Purity in floral form. Untouched, immaculate, essential.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
           </div>
-        </div>
-
-        <!-- Call to  Action -->
-        <div class="col-12 col-md-6 p-3 d-flex flex-column align-items-center align-items-md-start" style="position: relative; height: 100%">
-          <h2 class="textColorWhite text-center text-md-start ps-4 mb-3" style="font-size: 3rem; border-left: 5px solid #f7f4ef">Luxury that <span class="textScript px-2" style="font-size: 4rem">blooms</span></h2>
-          <p class="textColorWhite fs-5">Elegance delivered to your door</p>
-          <button class="heroButton">Explore Collection</button>
-        </div>
+          <!-- Call to  Action -->
+          <div class="col-12 col-md-4 text-center text-md-start">
+            <h2 class="textColorWhite mb-1" style="font-size: 3rem">Luxury that <span class="textScript px-2" style="font-size: 4rem">blooms</span></h2>
+            <p class="textColorWhite fs-5">Elegance delivered to your door</p>
+            <button class="exploreCollectionButton mt-2">Explore Collection</button>
+          </div>
+       </div>
       </section>
 
-      <!-- Banner -->
-      <!--  Elegance that touches. Luxury in every detail. -->
-      <div class="container-fluid backgroundGold textColorRed textScript mt-2" style="font-size: 2.5rem; padding: 0.5rem 0; position: relative">Roses that speak.</div>
+      <!-- Scrolling Banner -->
+      <div class="scrollingBanner">
+        <p class="scrollingText">Roses that speak. Elegance that touches. Luxury in every detail.</p>
+      </div>
 
       <!-- Shopping Section -->
-      <section id="shoppingSection" class="container-fluid m-0 mb-5 p-0 px-5 d-flex flex-column align-items-center">
-        <img src="./imgs/PaperTexture.webp" alt="" style="object-fit: cover; position: absolute; filter: opacity(50%)" class="imgBgShopping" />
+      <section id="shoppingSection" class="container-fluid" style="padding: 4rem 8rem;">
 
-        <div class="container-fluid position-relative d-flex flex-column w-100 align-items-center mt-5">
+        <!-- Section Title -->
+        <div class="container-fluid d-flex flex-column w-100 align-items-center">
           <h2 class="fs-1 fw-bold">Our Collection</h2>
-          <p class="text-center" style="max-width: 30rem">Each bouquet in our collection is a celebration of elegance and expression. Through delicate craftsmanship, our roses bloom in rare and poetic colors — each one telling a quiet story of luxury, emotion, and timeless beauty.</p>
+          <p class="text-center" style="max-width: 35rem">Each bouquet in our collection is a celebration of elegance and expression. Through delicate craftsmanship, our roses bloom in rare and poetic colors — each one telling a quiet story of luxury, emotion, and timeless beauty.</p>
         </div>
 
         <div class="container-fluid d-flex flex-wrap justify-content-center row g-3 mt-4">
@@ -559,7 +562,9 @@
       <section id="storiesSection" class="container-fluid my-5 px-4">
         <div class="mb-5">
           <h2 class="text-center fw-bold fs-1 mb-4">Stories Woven in Petals</h2>
-          <p class="col-10 mx-auto text-center">Behind every bouquet, there’s a story — of love, of gratitude, of unforgettable moments. Here, our customers share the memories they've created with our roses. Each testimonial is a reflection of how beauty, sentiment, and elegance come together to make something truly meaningful.</p>
+          <p class="col-10 mx-auto text-center">
+            Behind every bouquet, there’s a story — of love, of gratitude, of unforgettable moments. Here, our customers share the memories they've created with our roses. Each testimonial is a reflection of how beauty, sentiment, and elegance come together to make something truly meaningful.
+          </p>
         </div>
 
         <div>
@@ -599,10 +604,283 @@
           </div>
         </div>
       </section>
+
+      <!-- Request Section -->
+      <section id="requestSection" style="padding: 4rem 8rem;">
+          <div class="container-fluid row backgroundWhite textColorBlue p-4 justify-content-center align-items-center">
+            <img src="./imgs/brown_bouquet.png" alt="" class="col-12 col-lg-3 ratio-1x1" style="object-fit: contain; max-width: 25rem" />
+            <div class="container-fluid col-12 col-lg-9 text-center mt-4 mt-lg-0">
+              <div>
+                <h2 class="fw-bold fs-1 mb-4">Custom Bouquet</h2>
+                <p class="mb-4">
+                  Looking for something truly <i>unique</i>? Our <b>custom bouquet</b> service allows you to create a floral arrangement that reflects your <i>style</i>, <i>message</i>, and <i>intention</i>. Choose your favorite rose colors, add a heartfelt message, and let us craft a piece that
+                  speaks louder than words. Whether it's for <i>love</i>, <i>celebration</i>, or <i>memory</i>, your vision becomes a bouquet — <b>exclusively yours</b>.
+                </p>
+              </div>
+              <button class="requestButton" data-bs-toggle="modal" data-bs-target="#modalRequestBouquet">Make your request</button>
+            </div>
+          </div>
+
+          <div id="modalRequestBouquet" class="modal fade" tabindex="-1" aria-labelledby="modalRequestBouquetLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-xl">
+              <div class="modal-content p-4 container-fluid backgroundWhite border-0 rounded-0">
+                <div class="modal-header pt-0">
+                  <h1 class="modal-title fs-6 fst-italic" id="modalRequestBouquetLabel">Custom Bouquet Request</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <!-- Form -->
+                  <form action="" class="container-fluid row">
+                    <!-- Part 1 -->
+                    <div class="row g-3 m-0 mb-4">
+                      <h3 class="fs-6 fw-semibold m-0">Who is making the request?</h3>
+                      <!-- Name Text Input -->
+                      <div class="col-12 col-md-4">
+                        <div class="form-floating">
+                          <input type="text" class="form-control" id="name" placeholder="Enter your name" required />
+                          <label for="name">Your Name</label>
+                        </div>
+                      </div>
+
+                      <!-- Email Input-->
+                      <div class="col-12 col-md-5">
+                        <div class="form-floating">
+                          <input type="email" class="form-control" id="email" placeholder="name@example.com" required />
+                          <label for="email">Your Best Email</label>
+                        </div>
+                      </div>
+
+                      <!-- Phone Input-->
+                      <div class="col-12 col-md-3">
+                        <div class="form-floating">
+                          <input type="tel" class="form-control" id="phone" placeholder="(555) 555-5555" />
+                          <label for="phone">Your Phone Number</label>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Part 2 -->
+                    <div class="row g-3 m-0 mb-4">
+                      <h3 class="fs-6 fw-semibold m-0">Customize your bouquet</h3>
+
+                      <!-- Occasion Select Input-->
+                      <div class="col-12 col-md-6 col-xl-4">
+                        <div class="form-floating">
+                          <select class="form-select" id="occasion" required>
+                            <option selected disabled>Choose an occasion</option>
+                            <option>Birthday</option>
+                            <option>Anniversary</option>
+                            <option>Congratulations</option>
+                            <option>Just Because</option>
+                          </select>
+                          <label for="occasion">Occasion</label>
+                          <div id="ocasionHelp" class="form-text">The occasion will help in the customizable card</div>
+                        </div>
+                      </div>
+
+                      <!-- Quantity Range Input -->
+                      <div class="col-12 col-md-6 col-xl-4">
+                        <label for="quantity" class="form-label">Number of Roses: <span id="qty-output">12</span></label>
+                        <input type="range" class="form-range" min="1" max="50" value="12" id="quantity" oninput="document.getElementById('qty-output').textContent = this.value" />
+                      </div>
+
+                      <!-- Gift Wraping Switch -->
+                      <div class="col-12 col-md-6 col-xl-2">
+                        <div class="form-check form-switch">
+                          <input class="form-check-input" type="checkbox" id="giftWrap" />
+                          <label class="form-check-label" for="giftWrap">Include Gift Wrapping?</label>
+                        </div>
+                      </div>
+
+                      <!-- White Vase Switch -->
+                      <div class="col-12 col-md-6 col-xl-2">
+                        <div class="form-check form-switch">
+                          <input class="form-check-input" type="checkbox" id="whiteVase" />
+                          <label class="form-check-label" for="whiteVase">Include White Vase?</label>
+                        </div>
+                      </div>
+
+                      <!-- Roses Colors Checkbox Group -->
+                      <label class="form--text mb-2">Chose the Roses Colors</label>
+                      <div class="row mb-1">
+                        <!-- Checkbox Color 1 -->
+                        <div class="col-6 col-md-4 col-lg-3 col-xl-2 mb-2">
+                          <div class="form-check d-flex align-items-start">
+                            <input class="form-check-input me-2" type="checkbox" value="Classic Red" id="red" />
+                            <label class="form-check-label d-flex align-items-center" for="red">
+                              <span class="rounded-circle me-2" style="width: 1rem; height: 1rem; background-color: #800000"></span>
+                              <p class="m-0">Classic Red</p>
+                            </label>
+                          </div>
+                        </div>
+
+                        <!-- Checkbox Color 2 -->
+                        <div class="col-6 col-md-4 col-lg-3 col-xl-2 mb-2">
+                          <div class="form-check d-flex align-items-start">
+                            <input class="form-check-input me-2" type="checkbox" value="Dark Blue" id="blue" />
+                            <label class="form-check-label d-flex align-items-center" for="blue">
+                              <span class="rounded-circle me-2" style="width: 1rem; height: 1rem; background-color: #051c25"></span>
+                              <p class="m-0">Dark Blue</p>
+                            </label>
+                          </div>
+                        </div>
+
+                        <!-- Checkbox Color 3 -->
+                        <div class="col-6 col-md-4 col-lg-3 col-xl-2 mb-2">
+                          <div class="form-check d-flex align-items-start">
+                            <input class="form-check-input me-2" type="checkbox" value="Golden" id="gold" />
+                            <label class="form-check-label d-flex align-items-center" for="gold">
+                              <span class="rounded-circle me-2" style="width: 1rem; height: 1rem; background-color: #f4dca2"></span>
+                              <p class="m-0">Golden</p>
+                            </label>
+                          </div>
+                        </div>
+
+                        <!-- Checkbox Color 4 -->
+                        <div class="col-6 col-md-4 col-lg-3 col-xl-2 mb-2">
+                          <div class="form-check d-flex align-items-start">
+                            <input class="form-check-input me-2" type="checkbox" value="White" id="white" />
+                            <label class="form-check-label d-flex align-items-center" for="white">
+                              <span class="rounded-circle me-2" style="width: 1rem; height: 1rem; background-color: #fff"></span>
+                              <p class="m-0">White</p>
+                            </label>
+                          </div>
+                        </div>
+
+                        <!-- Checkbox Color 5 -->
+                        <div class="col-6 col-md-4 col-lg-3 col-xl-2 mb-2">
+                          <div class="form-check d-flex align-items-start">
+                            <input class="form-check-input me-2" type="checkbox" value="Pale Blue" id="paleBlue" />
+                            <label class="form-check-label d-flex align-items-center" for="paleBlue">
+                              <span class="rounded-circle me-2" style="width: 1rem; height: 1rem; background-color: #badcff"></span>
+                              <p class="m-0">Pale Blue</p>
+                            </label>
+                          </div>
+                        </div>
+
+                        <!-- Checkbox Color 6 -->
+                        <div class="col-6 col-md-4 col-lg-3 col-xl-2 mb-2">
+                          <div class="form-check d-flex align-items-start">
+                            <input class="form-check-input me-2" type="checkbox" value="Soft Pink" id="softPink" />
+                            <label class="form-check-label d-flex align-items-center" for="softPink">
+                              <span class="rounded-circle me-2" style="width: 1rem; height: 1rem; background-color: #ffcbe7"></span>
+                              <p class="m-0">Soft Pink</p>
+                            </label>
+                          </div>
+                        </div>
+
+                        <!-- Checkbox Color 7 -->
+                        <div class="col-6 col-md-4 col-lg-3 col-xl-2 mb-2">
+                          <div class="form-check d-flex align-items-start">
+                            <input class="form-check-input me-2" type="checkbox" value="Mint" id="mint" />
+                            <label class="form-check-label d-flex align-items-center" for="mint">
+                              <span class="rounded-circle me-2" style="width: 1rem; height: 1rem; background-color: #bdffda"></span>
+                              <p class="m-0">Mint</p>
+                            </label>
+                          </div>
+                        </div>
+
+                        <!-- Checkbox Color 8 -->
+                        <div class="col-6 col-md-4 col-lg-3 col-xl-2 mb-2">
+                          <div class="form-check d-flex align-items-start">
+                            <input class="form-check-input me-2" type="checkbox" value="Blue" id="blue" />
+                            <label class="form-check-label d-flex align-items-center" for="blue">
+                              <span class="rounded-circle me-2" style="width: 1rem; height: 1rem; background-color: #ffc9aa"></span>
+                              <p class="m-0">Peach</p>
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+
+                      <!-- Personalized Message Checkbox + Textarea -->
+                      <div>
+                        <div class="form-check mb-2">
+                          <input class="form-check-input" type="checkbox" id="customMessageToggle" onchange="toggleMessage()" />
+                          <label class="form-check-label" for="customMessageToggle"> Add a personalized message for the loved person </label>
+                        </div>
+
+                        <div class="form-floating">
+                          <textarea class="form-control" id="customMessage" placeholder="Your message here..." style="height: 100px" disabled></textarea>
+                          <label for="customMessage">Your message here...</label>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Part 3 -->
+                    <div class="row g-3 m-0 mb-4">
+                      <h3 class="fs-6 fw-semibold m-0">Delivery Address</h3>
+
+                      <!-- Address -->
+                      <div class="col-12 col-lg-4">
+                        <div class="form-floating">
+                          <input type="text" class="form-control" id="street" placeholder="Street Address" required />
+                          <label for="street">Street Address</label>
+                        </div>
+                      </div>
+
+                      <div class="col-12 col-md-6 col-lg-4">
+                        <div class="form-floating">
+                          <input type="text" class="form-control" id="city" placeholder="City" required />
+                          <label for="city">City</label>
+                        </div>
+                      </div>
+
+                      <div class="col-12 col-md-6 col-lg-4">
+                        <div class="form-floating">
+                          <input type="text" class="form-control" id="zip" placeholder="Postal Code" required />
+                          <label for="zip">Postal Code</label>
+                        </div>
+                      </div>
+
+                      <div class="form-floating mb-4">
+                        <textarea class="form-control" id="additionalInfo" placeholder="Apartment, floor, gate code, etc." style="height: 80px"></textarea>
+                        <label for="additionalInfo">Additional Delivery Info (optional)</label>
+                      </div>
+                    </div>
+
+                    <!-- Submit Button -->
+                    <div class="col-12 text-center">
+                      <button type="submit" class="btn backgroundBlue textColorWhite py-2 w-100 mt-3 rounded-0" id="submitBtn">Craft My Bouquet</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+      </section>
     </main>
 
-    <footer></footer>
+    <footer class="backgroundBlue textColorWhite text-center">
+      <div class="container-fluid row p-5 pb-3">
+        <div class="container-fluid col-12 col-md-8">
+          <h5 class="fs-6 fst-italic mb-2">About this project</h5>
+          <p class="m-0" style="font-size: 0.875rem;">This website was developed as a challenge in the Multiplatform Software Development Technology course, at the Jahu College of Technology. The main goal was to explore Bootstrap components to the fullest, alongside comparisons with Tailwind CSS</p>
+        </div>
+        <div class="container-fluid col-12 col-md-4 text-center">
+          <h5 class="fs-6 fst-italic mb-2">Follow me on my social media!</h5>
+          <div class="container-fluid ">
+            <a href="https://github.com/N4rdelli" class="btn textColorWhite btn-sm" target="_blank">
+              <i class="bi bi-github fs-4"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/anelize-n4rdelli" class="btn textColorWhite btn-sm" target="_blank">
+              <i class="bi bi-linkedin fs-4"></i>
+            </a>
+            <a href="https://www.instagram.com/aa_nardelli/" class="btn textColorWhite btn-sm" target="_blank">
+              <i class="bi bi-instagram fs-4"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <p class="py-2 m-0"><span>&copy;</span> 2025 N4rdelli | All rights reserved.</p>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+    <script>
+      function toggleMessage() {
+        const checkbox = document.getElementById('customMessageToggle');
+        const messageBox = document.getElementById('customMessage');
+        messageBox.disabled = !checkbox.checked;
+      }
+    </script>
   </body>
 </html>
