@@ -86,25 +86,32 @@ Não são necessárias instalações adicionais, pois todas as dependências sã
 ## 📸 Screenshots
 
 **Hero Maison Rosée**
-![Imagem da hero da página principal.](/imgs/readme/screenshot_hero.png "This is a sample image.")
+
+![Imagem da hero da página principal.](/imgs/readme/screenshot_hero.png)
 
 **Seção de Produtos**
-![Imagem da seção de produtos do Maison Rosée.](/imgs/readme/screenshot_shopping.png "This is a sample image.")
+
+![Imagem da seção de produtos do Maison Rosée.](/imgs/readme/screenshot_products.png)
 
 **Detalhes do Produto**
-![Imagem do modal que mostra os detalhes de um produto.](/imgs/readme/screenshot_modal.png "This is a sample image.")
+
+![Imagem do modal que mostra os detalhes de um produto.](/imgs/readme/screenshot_modal.png)
 
 **FAQ**
-![Imagem da seção de FAQ, com accordions.](/imgs/readme/screenshot_faq.png "This is a sample image.")
+
+![Imagem da seção de FAQ, com accordions.](/imgs/readme/screenshot_faq.png)
 
 **Seção de Histórias**
-![Imagem da seção de histórias, com multi-collapse.](/imgs/readme/screenshot_stories.png "This is a sample image.")
+
+![Imagem da seção de histórias, com multi-collapse.](/imgs/readme/screenshot_stories.png)
 
 **Footer Maison Rosée**
-![Imagem da seção de personalização e do footer..](/imgs/readme/screenshot_footer.png "This is a sample image.")
+
+![Imagem da seção de personalização e do footer..](/imgs/readme/screenshot_footer.png)
 
 **Formulário de buquê personalizado**
-![Imagem do formulário de buquê personalizado.](/imgs/readme/screenshot_form.png "This is a sample image.")
+
+![Imagem do formulário de buquê personalizado.](/imgs/readme/screenshot_form.png)
 
 ## 👩‍💻 Autora
 
