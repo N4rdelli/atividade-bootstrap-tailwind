@@ -61,11 +61,17 @@ A proposta foi criar uma experiência de usuário elegante e funcional, exploran
 atividade-bootstrap-tailwind/
 
 ├── index.html # Página principal do projeto com o máximo de componentes Bootstrap 5
+
 ├── tailwind.html # Página com Tailwind CSS
+
 ├── outros-componentes.html # Página com outros componentes Bootstrap que não foram utilizados na principal
+
 ├── css/
+
 │ └── style.css # CSS customizado
+
 ├── imgs/ # Pasta com todas as imagens do projeto
+
 └── README.md # Este arquivo
 
 ## 🚀 Como Executar
@@ -120,4 +126,3 @@ Desenvolvido por **Anelize Nardelli**.
 -   [![LinkedIn](https://img.shields.io/badge/LinkedIn-Anelize%20Nardelli-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/anelize-n4rdelli)
 -   [![GitHub](https://img.shields.io/badge/GitHub-N4rdelli-181717?style=for-the-badge&logo=github)](https://github.com/N4rdelli)
 -   [![Instagram](https://img.shields.io/badge/Instagram-aa_nardelli-E4405F?style=for-the-badge&logo=instagram)](https://www.instagram.com/aa_nardelli/)
-
