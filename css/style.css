@@ -79,6 +79,20 @@ nav .dropdown-toggle {
     color: #F7F4EF;
 }
 
+.offcanvas-body .nav-link {
+    padding: 0.5rem;
+    border-radius: var(--bs-border-radius);
+}
+
+.offcanvas-body .nav-link:hover {
+    background-color: #87233788;
+    color: #F7F4EF;
+}
+
+.offcanvas-body .nav-item .active {
+    background-color: #87233788 !important;
+}
+
 /* Hero */
 
 #heroSection {
@@ -111,7 +125,7 @@ nav .dropdown-toggle {
     position: relative;
 }
 
-.scrollingText{
+.scrollingText {
     display: inline-block;
     animation: scrollLeft 15s linear infinite;
     font-family: 'Pinyon Script', cursive;
@@ -125,7 +139,8 @@ nav .dropdown-toggle {
     from {
         transform: translateX(0);
     }
-    to{
+
+    to {
         transform: translateX(-100%);
     }
 }
